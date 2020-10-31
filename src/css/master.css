@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "NotoSansCJKkr";
+    src: url("../font/NotoSansCJKkr-Regular.otf");
+  }
+
+html,body{
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 300px;
+    max-height: 300px;
+    font-family: "NotoSansCJKkr";
+}
+
+#logoNav{
+    background-color: #3a051f;
+    padding:10px;
+    height: auto;
+    text-align: center;
+    margin:0px;
+}
+#menuNav{
+    background-color: #b10058;
+    color:#fff
+}
+ul.menulist{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+ul.menulist li{
+    display: inline-block;
+    padding:5px 10px;
+    height:100%;
+}
+ul.menulist li.active{
+    font-weight: bold;
+    background-color: #8e44ad;
+}
+ul.menulist a{
+    color: #fff;
+}
+.fnt-NotoSansCJKkr {
+    font-family: "NotoSansCJKkr";
+}
+
+.section{
+    padding:10px 10px;
+}
+.sectionTitle p {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.sectionBody{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+main{
+    padding-top: 100px;
+}
+#_tb{
+    font-size: 0.8rem;
+}
+.text_ellipsis{
+    overflow:hidden; 
+    white-space:nowrap;
+    width: 200px;
+    text-overflow:ellipsis; 
+}
+
+
+
+*::-webkit-scrollbar{
+    width:0px
+}

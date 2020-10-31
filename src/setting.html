@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./boots/jquery-3.5.1.slim.min.js"></script>
+    <link rel="stylesheet" href="./boots/bootstrap.min.css">
+    <script src="./boots/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/master.css">
+    <link rel="stylesheet" href="./css/page/index.css">
+    <script src="./boots/axios.min.js"></script>
+    <script src="./boots/jsencrypt.min.js"></script>
+    <script src="./js/master.js"></script>
+    <title>KlasPlugin</title>
+</head>
+
+<body>
+    <div class="fixed-top">
+        <div id="logoNav" class="text-center text-light">
+            <img src="../img/logo/logo.png" alt="" srcset="">
+        </div>
+        <div id="menuNav">
+            <ul class="menulist">
+                <li> <a href="./index.html">일정</a> </li>
+                <li> <a href="./notice.html">공지</a> </li>
+                <li> <a href="./lecture.html">강의</a> </li>
+                <li> <a href="./works.html">과제</a> </li>
+                <li class="active">설정</li>
+            </ul>
+        </div>
+    </div>
+    <main>
+        <div class="container">
+            <div class="row justify-content-cneter">
+                <div class="col-12">
+                    <h6 class="font-weight-bold text-center" id="title">플러그인 설정</h6>
+                </div>
+                <div class="col-12">
+                    <label for="login_input" class="mb-0 font-weight-bold" style="font-size: 0.8rem;">로그인정보저장</label>
+                    <div id="login_input" class="input-group">
+                        <input type="text" class="form-control" placeholder="학번" style="font-size: 0.8rem;" id="login_user">
+                        <input type="password" class="form-control" placeholder="암호" style="font-size: 0.8rem;" id="login_pass">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" style="font-size: 0.8rem;" id="login_save">저장</button>
+                        </div>
+                    </div>
+                    <p id="login_status" class="m-0" style="font-size: 0.5rem;">성공적으로 로그인 되었습니다.</p>
+                    
+                </div>
+                <div class="col-12 mt-3">
+                    <button class="btn btn-danger btn-block" id="logout">로그아웃(계정정보삭제)</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/page/setting.js"></script>
+</body>
+
+
+
+</html>

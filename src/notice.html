@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./boots/jquery-3.5.1.slim.min.js"></script>
+    <link rel="stylesheet" href="./boots/bootstrap.min.css">
+    <script src="./boots/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/master.css">
+    <link rel="stylesheet" href="./css/page/index.css">
+    <script src="./boots/axios.min.js"></script>
+    <script src="./boots/jsencrypt.min.js"></script>
+    <script src="./js/master.js"></script>
+    <title>KlasPlugin</title>
+</head>
+
+<body>
+    <div class="fixed-top">
+        <div id="logoNav" class="text-center text-light">
+            <img src="../img/logo/logo.png" alt="" srcset="">
+        </div>
+        <div id="menuNav">
+            <ul class="menulist">
+                <li> <a href="./index.html">일정</a> </li>
+                <li class="active">공지</li>
+                <li> <a href="./lecture.html">강의</a> </li>
+                <li> <a href="./works.html">과제</a> </li>
+                <li> <a href="./setting.html">설정</a> </li>
+            </ul>
+        </div>
+    </div>
+    
+    <main>
+        <div class="container">
+            <div class="row justify-content-cneter">
+                <div class="col-12">
+                    <h6 class="font-weight-bold text-center" id="title"></h6>
+                </div>
+                <div class="col-12">
+                    <table class="table table-sm table-striped text-center  table-hover">
+                        <thead style="width:100%">
+                          <tr>
+                            <th scope="col">제목</th>
+                            <th scope="col" width="60px">교수</th>
+                          </tr>
+                        </thead>
+                        <tbody id="_tb">
+                        
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <script src="./js/page/notice.js"></script>
+</body>
+
+</html>
