@@ -1,19 +1,24 @@
 {
     "manifest_version": 2,
     "name": "KlasPlugin",
+    "version": "1.2",
     "description": "광운대학교 Klas 확장플러그인",
-    "version": "1.0",
+    "author": "jwmsg",
+
     "browser_action": {
         "default_icon": "img/logo/icon.png",
         "default_popup": "src/index.html"
     },
+    "icons":{
+        "16": "img/logo/icon.png",
+        "48": "img/logo/icon.png",
+       "128": "img/logo/icon.png"
+    },
     "permissions": [
         "tabs",
-        "https://*.kw.ac.kr/*",
-        "http://*.kw.ac.kr/",
-        "activeTab",
         "storage",
-        "cookies"
-    ],
-    "content_security_policy": "script-src 'self'; object-src 'self' "
+        "cookies",
+        "https://*.kw.ac.kr/*",
+        "http://*.kw.ac.kr/"
+    ]
 }
