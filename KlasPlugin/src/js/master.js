@@ -101,6 +101,10 @@ var login = (user_id, user_pw, callback) => {
     chrome.windows.create({
         url: base_url
     }, (win) => {
+        if (['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'].indexOf(window.navigator.platform) != -1) {
+            chrome.windows.update(window.id, { focused: true })
+        }
+        
         chrome.cookies.getAll({ url: base_url }, function (e) {
             document.cookie = e.map(el => `${el.name}=${el.value}`).join(';').replace(' ', '') + ';'
             window.my_session = e.map(el => `${el.name}=${el.value}`).join(';').replace(' ', '') + ';'
