@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "KlasPlugin",
-    "version": "1.3",
+    "version": "1.5",
     "description": "광운대학교 Klas 확장플러그인",
     "author": "jwmsg",
 

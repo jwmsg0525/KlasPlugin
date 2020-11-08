@@ -11,6 +11,11 @@ const updateTable = (list)=>{
         if (Va > Vb) return 1;
         return 0;
     })
+    
+    list = list.filter(e=>{ //수강 시간 이상 나오는거 안보여주기
+        return new Date(e.startDate) <= new Date()
+    })
+
     list.map(e=>{
         const row = $(`<tr style="cursor:pointer"></tr>`)
         const td1 = $(`<td></td>`)
