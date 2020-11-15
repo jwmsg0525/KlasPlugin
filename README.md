@@ -1,5 +1,13 @@
 # KlasPlugin
-https://klas.kw.ac.kr 광운대학교 KLAS 를 활용하는 광운대학교 학부생을 위한, 크로미엄 기반의 확장 플러그인 입니다.
+[광운대학교 KLAS](https://klas.kw.ac.kr) 를 활용하는 광운대학교 학부생을 위한, 크로미엄 기반의 확장 플러그인 입니다.
+
+## 설치방법
+### 개발자를 위한 설치
+* 확장플러그인 설정에서, 개발자모드 켜기
+* 개발자모드를 켠 상태에서, 압축해제된 확장플러그인을 로드합니다 버튼을 통해 manifest.json 이 존재하는 디렉터리를 선택
+
+### 일반사용자를 위한 설치
+* [크롬스토어](https://chrome.google.com/webstore/detail/klasplugin/nbfleghpmjokcjfdkelooeabmhmiplpf?hl=ko)에서 설치버튼을 눌러 설치하세요.
 
 ## 지원사항
 ### 지원 브라우저
@@ -10,14 +18,6 @@ https://klas.kw.ac.kr 광운대학교 KLAS 를 활용하는 광운대학교 학�
 ### 지원 운영체제
 * Windows 10
 * MacOS
-
-## 설치방법
-### 개발자를 위한 설치
-* 확장플러그인 설정에서, 개발자모드 켜기
-* 개발자모드를 켠 상태에서, 압축해제된 확장플러그인을 로드합니다 버튼을 통해 manifest.json 이 존재하는 디렉터리를 선택
-
-### 일반사용자를 위한 설치
-* [크롬스토어](https://chrome.google.com/webstore/detail/klasplugin/nbfleghpmjokcjfdkelooeabmhmiplpf?hl=ko)에서 설치버튼을 눌러 설치하세요.
 
 ## 기여 안내
 ### 개발 방향
