@@ -164,7 +164,7 @@ const login = (user_id, user_pw, callback) => {
         url: base_url
     }, (win) => {
         if (['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'].indexOf(window.navigator.platform) != -1) {
-            chrome.windows.update(window.id, {
+            chrome.windows.update(win.id, {
                 focused: true
             })
         }
